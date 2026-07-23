@@ -23,7 +23,7 @@
       "metadata": {
         "name": "Custom Nous catalog"
       },
-      "models" [
+      "models": [
         { "id": "poolside/laguna-s-2.1:free", "description": "" },
         { "id": "poolside/laguna-xs-2.1:free", "description": "" },
       ]
