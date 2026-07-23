@@ -11,12 +11,12 @@
         "name": "Custom OpenRouter catalog"
       },
       "models": [
-        { "id": "google/gemini-3.5-flash", "description": "" },
-        { "id": "google/gemini-3.5-flash-lite", "description": "" },
-        { "id": "google/gemini-3.6-flash", "description": "" },
-        { "id": "thinkingmachines/inkling", "description": "default", "default": true },
+        { "id": "mistralai/mistral-small-2603", "description": ""},
+        { "id": "mistralai/mistral-medium-3-5", "description": "default", "default": true },
+        { "id": "google/gemma-4-31b-it:free", "description": "free" },
+        { "id": "google/gemma-4-31b-it", "description": ""},
+        { "id": "thinkingmachines/inkling", "description": ""},
         { "id": "nvidia/nemotron-3-super-120b-a12b", "description": "" },
-        { "id": "nvidia/nemotron-3-ultra-550b-a55b", "description": "" },
       ]
     },
     "nous" {
@@ -24,7 +24,8 @@
         "name": "Custom Nous catalog"
       },
     "models" [
-      { "id": "nvidia/nemotron-3-ultra-550b-a55b", "description": "" },
+      { "id": "poolside/laguna-s-2.1:free", "description": "" },
+      { "id": "poolside/laguna-xs-2.1:free", "description": "" },
     ]
   }
 }
