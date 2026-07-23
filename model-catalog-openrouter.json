@@ -2,8 +2,7 @@
   "version": 1,
   "updated_at": "2026-07-22T17:47:08Z",
   "metadata": {
-    "name": "Custom OpenRouter catalog",
-    "source": "User-curated"
+    "name": "Custom OpenRouter catalog"
   },
   "providers": {
     "openrouter": {
@@ -16,7 +15,7 @@
         { "id": "google/gemma-4-31b-it:free", "description": "free" },
         { "id": "google/gemma-4-31b-it", "description": ""},
         { "id": "thinkingmachines/inkling", "description": ""},
-        { "id": "nvidia/nemotron-3-super-120b-a12b", "description": "" },
+        { "id": "nvidia/nemotron-3-super-120b-a12b", "description": "" }
       ]
     },
     "nous": {
@@ -24,8 +23,8 @@
         "name": "Custom Nous catalog"
       },
       "models": [
-        { "id": "poolside/laguna-s-2.1:free", "description": "" },
-        { "id": "poolside/laguna-xs-2.1:free", "description": "" },
+        { "id": "poolside/laguna-s-2.1:free", "default": true },
+        { "id": "poolside/laguna-xs-2.1:free" }
       ]
     }
   }
