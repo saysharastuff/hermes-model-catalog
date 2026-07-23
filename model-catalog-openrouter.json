@@ -19,7 +19,7 @@
         { "id": "nvidia/nemotron-3-super-120b-a12b", "description": "" },
       ]
     },
-    "nous" {
+    "nous": {
       "metadata": {
         "name": "Custom Nous catalog"
       },
