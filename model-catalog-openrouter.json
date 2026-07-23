@@ -18,6 +18,13 @@
         { "id": "nvidia/nemotron-3-super-120b-a12b", "description": "" },
         { "id": "nvidia/nemotron-3-ultra-550b-a55b", "description": "" },
       ]
-    }
+    },
+    "nous" {
+      "metadata": {
+        "name": "Custom Nous catalog"
+      },
+    "models" [
+      { "id": "nvidia/nemotron-3-ultra-550b-a55b", "description": "" },
+    ]
   }
 }
